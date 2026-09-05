@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Birthday.exe</title>
+
+    <link rel="stylesheet" href="cumple.css">
+</head>
+
+<body>
+
+    <main class="terminal">
+
+        <!-- Barra superior de la ventana -->
+        <header class="terminal-header">
+            <div class="buttons">
+                <span class="red"></span>
+                <span class="yellow"></span>
+                <span class="green"></span>
+            </div>
+
+            <span class="title">BIRTHDAY.EXE</span>
+        </header>
+
+
+        
+        <section class="terminal-content">
+
+            <div id="messages"></div>
+
+            <!-- Barra de progreso -->
+            <div class="progress-container">
+                <div id="progress"></div>
+            </div>
+
+            <p id="percentage">0%</p>
+
+            
+            <div id="final-message" class="hidden">
+
+                <h1>ACCESS GRANTED ✓</h1>
+
+                <p>
+                    Birthday protocol successfully initialized.
+                </p>
+
+                <p>
+                    Parece que hay un mensaje esperando por ti 
+                </p>
+
+                <button id="continue-button">
+                    [ CONTINUE ]
+                </button>
+
+            </div>
+
+
+           
+            <div id="secret-message" class="hidden">
+
+                <p class="big-text">
+                    > I
+                </p>
+
+                <p>
+                    01101100
+                    01101111
+                    01110110
+                    01100101
+                </p>
+
+                <p>
+                    You
+                </p>
+
+                <span class="cursor">_</span>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <script src="koriginal.js"></script>
+
+</body>
+</html>
