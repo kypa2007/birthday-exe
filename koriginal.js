@@ -1,6 +1,4 @@
-// -------------------------
-// MENSAJES INICIALES
-// -------------------------
+
 console.log("El script se cargó correctamente");
 
 const messages = [
@@ -13,7 +11,6 @@ const messages = [
 ];
 
 
-// Elementos HTML que vamos a utilizar
 
 const messagesContainer =
     document.getElementById("messages");
